@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div ul li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <h4>TO DO LIST</h4>
+            <div class="tsk-input">
+             <input type="text" placeholder="Add a new task" >
+            </div>
+            <div class="controls">
+                <div class="filters">
+                    <span id="all" class="active">All</span>
+                    <span id="Pending">Pending</span>
+                    <span id="Completed">Completed</span>
+                </div>
+                <button class="clear-btn">Clear All</button>
+            </div>
+            <ul class="task-box">
+                <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Renew gym membership</p>
+                    </label>
+                    <div class="settings">
+                     <i class="uil uil-ellipsis-h">....</i>
+                     <ul class="task-menu">
+                        <li><i class="uil uil-open"></i>Edit</li>
+                        <li><i class="uil uil-open"></i>Delete</li>
+                     </ul>
+                    </div>
+                </li>
+                 <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Create a video for youtube</p>
+                    </label>
+                    <div class="settings">
+                     <i class="uil uil-ellipsis-h">....</i>
+                    </div>
+                </li>
+                    <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Write a blog about new trends</p>
+                    </label>
+                    <div class="settings">
+                     <i class="uil uil-ellipsis-h">....</i>
+                    </div>
+                </li>
+                    <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Send project file to the client</p>
+                    </label>
+                    <div class="settings">
+                     <i class="uil uil-ellipsis-h">....</i>
+                    </div>
+                </li>
+                    <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>Discuss new project with team</p>
+                    </label>
+                    <div class="settings">
+                     <i class="uil uil-ellipsis-h">....</i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
